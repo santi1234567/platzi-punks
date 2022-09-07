@@ -2,7 +2,7 @@
 
 ### Description:
 
-This project is from a Platzi course. The purpose of the course is to learn how to create a pseudo-random, generative NFT Collection contract and develop a frontend to interact with it.
+This project is from a Platzi course. The purpose of the course is to learn how to create a pseudo-random NFT contract and develop a frontend to interact with it.
 
 This repository corresponds to the first part of the course where we learnt how to use the hardhat environment for deploying contracts.
 
