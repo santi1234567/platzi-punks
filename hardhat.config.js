@@ -13,6 +13,17 @@ module.exports = {
       accounts: [
         privateKey
       ]
+    },
+    goerli: {
+      url: `https://goerli.infura.io/v3/${projectId}`,
+      accounts: [
+        privateKey
+      ]
+    }
+  },
+  etherscan: {
+    apiKey: {
+      goerli: process.env.ETHERSCAN_API_KEY
     }
   }
 };

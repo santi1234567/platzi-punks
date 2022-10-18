@@ -8,8 +8,8 @@ async function main() {
     const PlatziPunks = await ethers.getContractFactory("PlatziPunks");
     const maxSupply = 10000;
     const deployed = await PlatziPunks.deploy(maxSupply);
-  
-    console.log("Contract address:", deployed.address, `Etherscan URL: https://rinkeby.etherscan.io/address/${deployed.address}`);
+    console.log(process.argv)
+    console.log("Contract address:", deployed.address, `Etherscan URL: https://goerli.etherscan.io/address/${deployed.address}`);
   }
   
   main()
